@@ -1,0 +1,93 @@
+.App {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+}
+
+form {
+  margin-bottom: 20px;
+}
+
+input[type="text"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+.notes-list {
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
+  padding-inline: 30px;
+  padding-block: 10px;
+}
+
+.note-item {
+  padding: 10px;
+  border: 1px solid #ddd;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+
+.note-item h2 {
+  margin-top: 0;
+}
+
+.note-item p {
+  margin-bottom: 5px;
+}
+
+.note-buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.selected-note {
+  background-color: #f1f1f1;
+  padding: 10px;
+  border: 1px solid #ddd;
+}
+
+.selected-note h2 {
+  margin-top: 0;
+}
+
+.selected-note p {
+  margin-bottom: 5px;
+}
+
+.ellipsis {
+  max-width: 0;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.custom-ellipsis {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+button {
+  min-width: fit-content;
+}
+
+.customButton,
+.customInput {
+  height: 100%;
+}
